@@ -207,8 +207,8 @@ marimo/_lsp/
 __marimo__/
 
 # duckdb
- *.wal
- *.duckdb
+*.wal
+*.duckdb
  
 # vscode
- .vscode
+.vscode
