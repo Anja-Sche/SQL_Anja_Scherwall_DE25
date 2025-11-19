@@ -31,7 +31,15 @@ FROM
     staging.course_structure
 WHERE
     week > 46
-    and WEEK < 50;
+    and week < 50;
+    
+--eller
+SELECT
+    *
+FROM
+    staging.course_structure
+WHERE
+    week BETWEEN 47 AND 49;
 
 --e)
 SELECT
