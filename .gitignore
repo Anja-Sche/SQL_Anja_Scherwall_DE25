@@ -212,3 +212,6 @@ __marimo__/
  
 # vscode
 .vscode
+
+#
+cli_input.sql
