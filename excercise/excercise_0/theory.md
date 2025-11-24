@@ -47,7 +47,7 @@ Fill in this table either by copying this into your own markdown file or copy it
 | terminology         | explanation |
 | ------------------- | ----------- |
 | CRUD                |CREATE, READ, UPDATE, DELETE (creating and managing persistent data elements)            |
-| query               |computer programming language. Communicate and manipulate data in databases|
+| query               |a question or inquiry about a set of data|
 | statement           |instructions (ex. select, )             |
 | DDL                 |Data Defenition Language (create, alter, drop)             |
 | DML                 |Data Defenition Language (insert, update, delete)             |
