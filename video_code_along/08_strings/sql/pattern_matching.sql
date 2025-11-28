@@ -13,7 +13,7 @@ SELECT
     lower(trim(example)) AS cleaned_example
 FROM staging.sql_glossary
 WHERE cleaned_example LIKE '%select%'; -- wildcard % matches 0 or more characters
--- ILIKE for inseceble case??
+-- ILIKE for inseceble case
 
 
 -- wildcard _ reprecents 1 character
