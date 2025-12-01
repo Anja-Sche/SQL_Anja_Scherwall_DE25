@@ -44,7 +44,7 @@ FROM film f
 INNER JOIN category c ON category_id;
 
 
---in which adress, city ans country does staff live in
+--in which adress, city and country does staff live in
 
 FROM staff; -- address_id, first_name, last_name
 FROM address; -- address_id, address, city_id
