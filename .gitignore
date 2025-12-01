@@ -205,5 +205,13 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
- *.wal
- *.duckdb
+
+# duckdb
+*.wal
+*.duckdb
+ 
+# vscode
+.vscode
+
+#
+cli_input.sql
