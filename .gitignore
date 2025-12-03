@@ -215,3 +215,6 @@ __marimo__/
 
 #
 cli_input.sql
+
+
+*.duckdb
