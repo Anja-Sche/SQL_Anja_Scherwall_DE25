@@ -9,3 +9,8 @@ dependencies = [
     "ipykernel>=7.1.0",
     "pandas>=2.3.3",
 ]
+
+[tool.uv.workspace]
+members = [
+    "17_python_connect_duckdb",
+]

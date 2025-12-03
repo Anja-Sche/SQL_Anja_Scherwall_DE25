@@ -2,6 +2,29 @@ version = 1
 revision = 3
 requires-python = ">=3.12"
 
+[manifest]
+members = [
+    "17-python-connect-duckdb",
+    "video-code-along",
+]
+
+[[package]]
+name = "17-python-connect-duckdb"
+version = "0.1.0"
+source = { virtual = "17_python_connect_duckdb" }
+dependencies = [
+    { name = "duckdb" },
+    { name = "ipykernel" },
+    { name = "pandas" },
+]
+
+[package.metadata]
+requires-dist = [
+    { name = "duckdb", specifier = ">=1.4.2" },
+    { name = "ipykernel", specifier = ">=7.1.0" },
+    { name = "pandas", specifier = ">=2.3.3" },
+]
+
 [[package]]
 name = "appnope"
 version = "0.1.4"
