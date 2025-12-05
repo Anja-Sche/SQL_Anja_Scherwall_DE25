@@ -217,5 +217,4 @@ __marimo__/
 *.wal
 *.duckdb
 
-# testing file
-test
+*.venv
