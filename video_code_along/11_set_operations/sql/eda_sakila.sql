@@ -30,6 +30,11 @@ WHERE
 -- more EDAs left for the reader
 
 
+
+
+
+
+
 --a)
 SELECT 
     title,
@@ -39,24 +44,9 @@ WHERE length > 180;
 
 
 --b)
-SELECT 
-    title,
-    rating,
-    length || ' minutes' AS length,
-    description
-FROM film
-WHERE title LIKE '%LOVE%';
+--alla resultat som innehåller ordet love utan att det sitter i ett annat ord
 
---olika fast samma resultat
 
-SELECT 
-    title,
-    rating,
-    length || ' minutes' AS length,
-    description
-FROM film
-WHERE 
-    regexp_matches(title, 'LOVE');
 
 
 --c)
