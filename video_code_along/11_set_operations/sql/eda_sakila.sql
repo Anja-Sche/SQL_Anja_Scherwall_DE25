@@ -26,5 +26,3 @@ SELECT
 FROM customer c
 WHERE 
     c.first_name LIKE 'D%';
-
--- more EDAs left for the reader

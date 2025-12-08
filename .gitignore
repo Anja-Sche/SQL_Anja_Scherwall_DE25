@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 # Byte-compiled / optimized / DLL files
+=======
+*# Byte-compiled / optimized / DLL files
+>>>>>>> a9a0c4ba95ba19a1613f348fa826594f20470157
 __pycache__/
 *.py[codz]
 *$py.class
@@ -214,4 +218,8 @@ __marimo__/
 *.wal
 *.duckdb
 
+<<<<<<< HEAD
 *test.sql
+=======
+*.venv
+*.Scripts
